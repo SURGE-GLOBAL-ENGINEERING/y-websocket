@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/y-websocket",
-  "version": "1.5.1",
+  "version": "1.5.1-dev-1",
   "description": "Websockets provider for Yjs",
   "main": "./dist/y-websocket.cjs",
   "module": "./src/y-websocket.js",
@@ -58,7 +58,7 @@
     ]
   },
   "dependencies": {
-    "lib0": "^0.2.52",
+    "lib0": "0.2.52",
     "lodash.debounce": "^4.0.8",
     "standard-version": "^9.5.0",
     "y-protocols": "^1.0.5"
