@@ -371,7 +371,8 @@ export class WebsocketProvider extends Observable {
       ) {
         // no message received in a long time - not even your own awareness
         // updates (which are updated every 15 seconds)
-        /** @type {WebSocket} */ (this.ws).close()
+        /** comment out ws.close since awareness sync is not implemented yet and therefore this disconnects the ws connection every 30 secs */
+        /** @type {WebSocket} */ //(this.ws).close()
       }
     }, messageReconnectTimeout / 10))
     if (connect) {
